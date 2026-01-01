@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "test": "npx playwright test",
+  "bdd": "npx cucumber-js",
+  "codegen": "npx playwright codegen"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
